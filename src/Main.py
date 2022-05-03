@@ -14,7 +14,7 @@ def main():
     iteration = 1000
     tolerance = 1E-8
 
-    #generate_point(n_in_knots, n_edge_knots)
+    generate_point(n_in_knots, n_edge_knots)
 
     adv_dif_equ = DQ_RBF(n_sup_knots, n_in_knots, n_total_knots, n_deriatives, shape_para, iteration, tolerance)
     adv_dif_equ.read_knots()
