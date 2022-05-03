@@ -4,8 +4,7 @@ Solving Advection-diffusion Equation with Local Radial Basis Function-based Diff
 
 ## How to run
 
-- First, you need to run [`Knot_Generation.py`](src/Knot_Generation.py) to generate the knots needed by solving the equations.
-- Second, run [`Main.py`](src/Main.py) to solve the equations.
+Run [`Main.py`](src/Main.py) to solve the equations.
 
 ## Warning
 
